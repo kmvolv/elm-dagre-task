@@ -34,6 +34,13 @@ Similar to how the Dagre attributes were obtained from the attributes entered in
 #### Where `edits2` is the desired configuration of the nodes and edges by the user, which overwrites the default configuration in `defDrawConfig` 
 
 ## Drawer Specification and Standard Drawers
+The drawer configuration is a combination of two entities - 
+* `EdgeDrawerConfig` 
+* `NodeDrawerConfig`
+Both of these configurations have a set number of attributes, some in common, and some unique to only that particular entity. The attributes have been described about in the the next heading. 
+
+__Standard Drawers__ is an encapsulation of attributes, types and configuration of the node and edge. It can be used by the user to modify the appearance of a particular entity in the node or edge. 
+
 ## StandardDrawer.attributes
 - `label` - Used to set a custom label for nodes and edges
 - `onClick` - Adds an event listener to the element which when triggered, calls function specified by the user.  
