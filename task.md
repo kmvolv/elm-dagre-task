@@ -107,9 +107,23 @@ __Standard Drawers__ is an encapsulation of attributes, types and configuration 
 
 #### Edge-Specific Attributes:
 - `arrowHead` - Change the shape of arrow head pointing to node as __Triangle, Vee, or None__
+
+| Triangle | Vee | None |
+|---|---|---|
+| <img src = "/imgs/triangle.png" alt = "triangle" width = "300" height = "300"> | <img src = "/imgs/vee.png" alt = "vee" width = "300" height = "300"> | <img src = "/imgs/none.png" alt = "none" width = "300" height = "300"> 
 - `linkStyle` - Edges to be linked using either __Polyline or Spline__ (Curved line)
+
+| Polyline | Spline |
+| --- | --- |
+| <img src = "/imgs/polyline.png" alt = "polyline" width = "300" height = "300"> | <img src = "/imgs/spline.png" alt = "spline" width = "300" height = "300"> |
 - `alpha` - Used along with `linkStyle` as Spline to set the alpha value of the same.
+
+| `RSDA.alpha 2.5` | <img src = "/imgs/alpha.png" alt = "alpha" width = "300" height = "300"> |
+| - | - |
 - `orientLabelAlongEdge` - A boolean to either align the edge label along its curvature or not.  
+
+| `RSDA.orientLabelAlongEdge True` | <img src = "/imgs/align.png" alt = "align" width = "300" height = "300"> |
+| - | - |
 
 ## Reason for separate Dagre and Draw Attributes
 - A simple reason for this could be to make the code clean and easy to modify. 
