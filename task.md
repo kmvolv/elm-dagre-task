@@ -56,6 +56,7 @@ Similar to how the Dagre attributes were obtained from the attributes entered in
 The drawer configuration is a combination of two entities - 
 * `EdgeDrawerConfig` 
 * `NodeDrawerConfig`
+
 Both of these configurations have a set number of attributes, some in common, and some unique to only that particular entity. The attributes have been described about in the the next heading. 
 
 __Standard Drawers__ is an encapsulation of attributes, types and configuration of the node and edge. It can be used by the user to modify the appearance of a particular entity in the node or edge. 
@@ -66,11 +67,25 @@ __Standard Drawers__ is an encapsulation of attributes, types and configuration 
 | <img src = "/imgs/labelnode.png" alt = "labelnode" width = "200" height = "200"> <img src = "/imgs/labeledge.png" alt = "labeledge" width = "250" height = "200">  | <img src = "/imgs/label.png" alt = "label" width = "300" height = "300"> |
 | - | - |
 - `onClick` - Adds an event listener to the element which when triggered, calls function specified by the user.  
+
+| <img src = "/imgs/onclickcode.png" alt = "onclickcode" width = "250" height = "200">  | <img src = "/imgs/onclick.png" alt = "onclick" width = "300" height = "300"> |
+| - | - |
 - `strokeColor` - Modifies the stroke color of the desired node or edge. 
+
+| <img src = "/imgs/strokecolorcode.png" alt = "strokecolorcode" width = "250" height = "200">  | <img src = "/imgs/strokecolor.png" alt = "strokecolor" width = "300" height = "300"> |
+| - | - |
 - `strokeWidth` - Modifies the stroke width of desired node or edge.
+
+| <img src = "/imgs/strokewidthcode.png" alt = "strokewidthcode" width = "250" height = "200">  | <img src = "/imgs/strokewidth.png" alt = "strokewidth" width = "300" height = "300"> |
+| - | - |
 - `strokeDashArray` - To add a dashed boundary to node or to make edges dashed. 
-- `style` - Adds inline css to a node/edge. 
+
+| <img src = "/imgs/strokedasharraycode.png" alt = "strokedasharraycode" width = "250" height = "200">  | <img src = "/imgs/strokedasharray.png" alt = "strokedasharray" width = "300" height = "300"> |
+| - | - | 
 - `title` - Modify tooltip for a node or edge when hovered upon. 
+
+| <img src = "/imgs/titlecode.png" alt = "titlecode" width = "250" height = "200">  | <img src = "/imgs/title.png" alt = "title" width = "300" height = "300"> |
+| - | - |
 #### Node-Specific Attributes:
 - `shape` - Change the shape of node as __Circle, Ellipse, Box, or RoundedBox__
 - `fill` - Add fill color to the node
