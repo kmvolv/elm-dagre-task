@@ -17,9 +17,21 @@ The following attributes are utilized for this project:
 
 
 - `widthDict` - Configuration of node width of each node through a dictionary with key-value pair as node number and width respectively. 
+
+| `DA.widthDict(Dict.fromList [( 1,20 ), ( 2,40 ), ( 3,60 ), ( 4,80 ), ( 5,100 )])`  | <img src = "/imgs/widthdict.png" alt = "widthdict" width = "300" height = "300"> |
+| - | - |
 - `heightDict` - Configuration of node height of each node, in a similar representation as the `widthDict` attribute. 
+
+| `DA.heightDict(Dict.fromList [( 1,20 ), ( 2,40 ), ( 3,60 ), ( 4,80 ), ( 5,100 )])`  | <img src = "/imgs/heightdict.png" alt = "heightdict" width = "300" height = "300"> |
+| - | - |
 - `width` - Specification of default width of nodes, it is used when `widthDict` doesn't define a width for a node. 
+
+| `DA.width 60`  | <img src = "/imgs/width.png" alt = "width" width = "300" height = "300"> |
+| - | - |
 - `height` - Similar to width, used when `heightDict` doesn't define a height for a particular node. 
+
+| `DA.height 60`  | <img src = "/imgs/height.png" alt = "height" width = "300" height = "300"> |
+| - | - |
 
 ## Render.draw
 Render.draw takes in three parameters:
