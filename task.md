@@ -88,9 +88,22 @@ __Standard Drawers__ is an encapsulation of attributes, types and configuration 
 | - | - |
 #### Node-Specific Attributes:
 - `shape` - Change the shape of node as __Circle, Ellipse, Box, or RoundedBox__
+
+| Circle | Ellipse | Box | RoundedBox |
+|---|---|---|---|
+| <img src = "/imgs/circle.png" alt = "circle" width = "300" height = "300"> | <img src = "/imgs/ellipse.png" alt = "ellipse" width = "300" height = "300"> | <img src = "/imgs/box.png" alt = "box" width = "300" height = "300"> | <img src = "/imgs/rbox.png" alt = "rbox" width = "300" height = "300"> |
 - `fill` - Add fill color to the node
+
+| `RSDA.fill (\_ -> Color.lightOrange)`  | <img src = "/imgs/fill.png" alt = "fill" width = "300" height = "300"> |
+| - | - |
 - `xLabel` - To add an additional label for the node.
+
+| `RSDA.xLabel (\_ -> "x")` | <img src = "/imgs/xlabel.png" alt = "xlabel" width = "300" height = "300"> |
+| - | - |
 - `xLabelPos` - Set the position of the label specified through `xlabel`
+
+| `RSDA.xLabelPos (\_ _ _-> (10,20) )` | <img src = "/imgs/xlabelpos.png" alt = "xlabelpos" width = "300" height = "300"> |
+| - | - |
 
 #### Edge-Specific Attributes:
 - `arrowHead` - Change the shape of arrow head pointing to node as __Triangle, Vee, or None__
