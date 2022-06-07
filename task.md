@@ -62,6 +62,9 @@ __Standard Drawers__ is an encapsulation of attributes, types and configuration 
 
 ## StandardDrawer.attributes
 - `label` - Used to set a custom label for nodes and edges
+
+| <img src = "/imgs/labelnode.png" alt = "labelnode" width = "200" height = "200"> <img src = "/imgs/labeledge.png" alt = "labeledge" width = "250" height = "200">  | <img src = "/imgs/label.png" alt = "label" width = "300" height = "300"> |
+| - | - |
 - `onClick` - Adds an event listener to the element which when triggered, calls function specified by the user.  
 - `strokeColor` - Modifies the stroke color of the desired node or edge. 
 - `strokeWidth` - Modifies the stroke width of desired node or edge.
