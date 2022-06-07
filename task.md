@@ -9,6 +9,13 @@
 ## Dagre Module Attributes
 The following attributes are utilized for this project:
 - `rankDir` - To specify the direction of representation of graph. User has four choices : top-to-bottom, bottom-to-top, left-to-right and right-to-left.
+
+| bottom-to-top | top-to-bottom | left-to-right | right-to-left |
+|---|---|---|---|
+| <img src = "/imgs/rankdirBT.png" alt = "graph" width = "300" height = "300"> | <img src = "/imgs/rankdirTB.png" alt = "graph" width = "300" height = "300"> | <img src = "/imgs/rankdirLR.png" alt = "graph" width = "300" height = "300"> | <img src = "/imgs/rankdirRL.png" alt = "graph" width = "300" height = "300"> |
+
+
+
 - `widthDict` - Configuration of node width of each node through a dictionary with key-value pair as node number and width respectively. 
 - `heightDict` - Configuration of node height of each node, in a similar representation as the `widthDict` attribute. 
 - `width` - Specification of default width of nodes, it is used when `widthDict` doesn't define a width for a node. 
