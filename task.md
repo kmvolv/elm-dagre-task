@@ -32,6 +32,26 @@ The following attributes are utilized for this project:
 
 | `DA.height 60`  | <img src = "/imgs/height.png" alt = "height" width = "300" height = "300"> |
 | - | - |
+- `nodeSep` - Defines the number of pixels that separate each node in the layout.
+
+| `DA.nodeSep 25`  | <img src = "/imgs/nodesep.png" alt = "nodesep" width = "300" height = "300"> |
+| - | - |
+- `edgeSep` - Defines the number of pixels that separate each edge horizontally in the layout.
+
+| `DA.edgeSep 25`  | <img src = "/imgs/edgesep.png" alt = "edgesep" width = "300" height = "300"> |
+| - | - |
+- `rankSep` - Defines the number of pixels that separate each rank in the layout. 
+
+| `DA.rankSep 25`  | <img src = "/imgs/ranksep.png" alt = "ranksep" width = "300" height = "300"> |
+| - | - |
+- `marginX` - Specifies the margin around the left and right (x-direction) of the layout. 
+
+| `DA.marginX 40`  | <img src = "/imgs/marginx.png" alt = "marginx" width = "300" height = "300"> |
+| - | - |
+- `marginY` - Specifies the margin around the up and bottom (y-direction) of the layout.
+
+| `DA.marginY 40`  | <img src = "/imgs/marginy.png" alt = "marginy" width = "300" height = "300"> |
+| - | - |
 
 ## Render.draw
 Render.draw takes in three parameters:
